@@ -22,10 +22,16 @@ pip install django==3.2
 
 django-admin startproject iotserver(ชื่ออะไรก็ได้)
 
+
 ###เข้า ไปในโฟล์เดอร์
 
 cd iotserver
 
+### ติดตั้ง Restframwork
+
+pip install djangorestframework
+
+--------------------------------------
 ## เข้า รัน server
 
 python manage.py runserver
