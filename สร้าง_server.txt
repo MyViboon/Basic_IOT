@@ -1,0 +1,42 @@
+python -m pip install virtualenv
+
+python -m virtualenv 
+
+---------------------------------------
+
+##### จากนั้น cd เข้า path ที่เก็บไฟล์ เช่น cd "C:\Users\bakpu\Desktop\Basic_loT\Django Web Server"########
+
+python -m virtualenv venv
+
+
+### เข้า venv
+
+.\venv\scripst\activate
+
+
+## ติดตั้ง Djamgo 3.2
+
+pip install django==3.2
+
+### สร้าง โปรเจ็ค
+
+django-admin startproject iotserver(ชื่ออะไรก็ได้)
+
+###เข้า ไปในโฟล์เดอร์
+
+cd iotserver
+
+## เข้า รัน server
+
+python manage.py runserver
+
+--------------------------------------
+### สำหรับรันในเว็ป
+
+python manage.py runserver 0.0.0.0:8000
+
+#############################################
+
+แก้ไข settings.py >> แก้ ALLOWED_HOSTS = ['*']
+
+
