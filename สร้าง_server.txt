@@ -11,7 +11,7 @@ python -m virtualenv venv
 
 ### เข้า venv
 
-.\venv\scripst\activate
+.\venv\scripts\activate
 
 
 ## ติดตั้ง Djamgo 3.2
